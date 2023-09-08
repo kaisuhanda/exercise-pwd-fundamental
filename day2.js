@@ -77,7 +77,7 @@ console.log(result);
 
 //8. 
 result = ''
-n = 9
+n = 5
 for(let i = 0; i < n; i++){
     for(let j = 0; j < i; j++){
         result = result + '0'
