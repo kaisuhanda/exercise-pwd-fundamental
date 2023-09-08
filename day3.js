@@ -38,7 +38,7 @@ console.log(rp);
 
 //5. 
 let str = 'hello world'
-let search = 'orl'
+let search = 'ell'
 let cut = str.replace(search, '')
 console.log(cut);
 

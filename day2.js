@@ -36,6 +36,7 @@ number = 0
 n = 4
 for(let i = 0; i <= n; i++){
     number += i
+    console.log(number);
 }
 console.log(number);
 
