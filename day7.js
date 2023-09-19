@@ -9,7 +9,7 @@ let student2 = {
     age: 14
 }
 
-console.log(Object.keys(student1));
+console.log(Object.keys(student1) );
 function getProperties(student){
     attributes = Object.keys(student)
     let result = ''
@@ -119,5 +119,26 @@ function sameObject(obj1, obj2) {
 console.log(removeDuplicates(senikersku, luxeculture));
 
 //4. 
+let arrOfObj = [
+    {a: 'b', c: 'd'},
+    {e: 'f', g: 'h'}
+]
 
+for(let i = 0; i < arrOfObj.length; i++){
+    let obj = arrOfObj[i]
+    let keys = Object.keys(obj)
+    console.log(obj);
+    console.log(keys);
+    for(let j = 0; j < obj.length; j++){
+        let key = keys[j]
+        let value = obj[key]
 
+        delete obj[key]
+        obj[value] = key
+    }
+}
+
+console.log(Object.keys(arrOfObj[0]).length);
+console.log(arrOfObj.length);
+console.log(arrOfObj[0].a);
+console.log(arrOfObj);
