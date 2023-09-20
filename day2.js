@@ -49,7 +49,7 @@ for(let i = 1; i <= n; i++){
 console.log(number);
 
 //6. 
-n = 3
+n = 4
 let n0 = 1
 let n1 = 1
 let fn

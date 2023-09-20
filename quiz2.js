@@ -63,7 +63,7 @@ let word = 'gilbert'
 
 function rectangleArea(h, word){
 let letters = []
-let letter = 'a'
+let letter = ''
 let letterHeight = 0
 let result = 0
 let heights = []
